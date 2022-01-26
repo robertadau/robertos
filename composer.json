@@ -1,12 +1,22 @@
 {
-    "name": "kaunas-coding-school/web",
-    "description": "Kaunas Coding School Web kurso mokomoji medžaga, praktinės užduotys",
+    "name": "kcs/web",
+    "description": "Kaunas Coding School kurso darbas",
     "type": "project",
-    "version": "1.0.0",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "Tautvydas Dulskis",
             "email": "tautvydas@dulskis.eu"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KCS\\": "src"
+        }
+    }
 }
