@@ -2,24 +2,25 @@
 <html>
   <head>
      <title>Mano pirmasis puslapis</title>
+      <meta charset="UTF-8">
    </head>
    <body
 
-   <label for="fn">Vardas</label>
-   <input name="firstname" type="text" id="fn" />
-   <label for="masina">Automobilis</label>
-   <select name="cars" id="masina">
-       <option value="auto1">Volvo</option>
-       <option value="auto2">Saab</option>
-       <option value="kitas3">Fiat</option>
-       <option value="a4">Audi</option>
-   </select>
-   <label for="zinute">Tavo Zinute man</label>
-   <textarea name="message" rows="10" cols="30" id="zinute">
-The cat was playing in the garden.
-</textarea>
-   <button type="button" onclick="alert('Hello World!')">Labas!</button>
-   <input value="Siųsti" type="submit" />
+  <div class="container">
+      <form action="action_page.php">
+
+          <input type="text" id="fname" name="firstname" placeholder="Jūsų vardas"> <br>
+
+          <input type="text" id="lname" name="lastname" placeholder="Jūsų el. pašto adresas"> <br>
+
+          <input type="text" id="fname" name="firstname" placeholder="Žinutės tema"> <br>
+
+          <textarea id="subject" name="subject" placeholder="Žinutė" style="height:200px"></textarea> <br>
+
+          <input type="submit" value="Siųsti žinutę">
+
+      </form>
+  </div>
 
 
   </body>
