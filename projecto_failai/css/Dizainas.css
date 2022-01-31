@@ -1,47 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-    box-sizing: border-box;
+header {
+    display: flex;
+    justify-content: space-between;
+    background: darkred;
+    margin: 25px;
+    height: 300px;
 }
 
-body {
-    margin: 0;
-}
-
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: revert;
-}
-
-.column {
+aside {
+    background: blue;
     float: left;
-    padding: 10px;
+    margi: 25px
 }
 
-.column.side {
-    width: 25%;
+nav {
+    background: darkgreen;
+    float: left;
+    margin: 25px;
+}
+main {
+    text-indent: 145px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    background: greenyellow;
+
 }
 
-.column.middle {
-    width: 50%;
-}
+footer {
+    float: bottom;
+    justify-content: left;
 
-@media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100%;
-    }
 }
-
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-}
- </style>
-  </head>
 
