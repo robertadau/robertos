@@ -1,34 +1,45 @@
 header {
     display: flex;
     justify-content: space-between;
-    background: darkred;
+    background: whitesmoke;
     margin: 25px;
-    height: 300px;
+    height: 50px;
 }
 
 aside {
-    background: blue;
-    float: left;
-    margi: 25px
+    background: whitesmoke;
+    float: right;
+    margin: 150px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 80 px;
 }
 
 nav {
-    background: darkgreen;
-    float: left;
+    background: blue;
+    float: end;
     margin: 25px;
+    padding: inherit;
 }
+
 main {
     text-indent: 145px;
     display: flex;
-    justify-content: center;
-    margin: 25px;
-    background: greenyellow;
+    justify-content: left;
+    margin: 20px;
+    background: whitesmoke;
+}
 
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 80px;
+}
+
+main,footer,aside,div,header {
+    border: 1px solid darkgrey;
 }
 
 footer {
     float: bottom;
     justify-content: left;
-
-}
-
