@@ -10,46 +10,44 @@
             background: white;
             margin: 25px;
             height: 50px;
+            border: hidden;
         }
 
         aside {
             background: white;
             float: right;
-            margin: 150px;
-            padding-top: 50px;
-            padding-right: 30px;
-            padding-left: 80 px;
+            padding-block: 350px;
+            display: flex;
+
         }
 
-        nav {
+        nav > a:hover {
             background: blue;
             float: end;
             margin: 25px;
             padding: inherit;
+            border: hidden;
         }
 
         main {
             text-indent: 145px;
             display: flex;
             justify-content: left;
-            margin: 20px;
+            margin: 1px;
             background: white;
         }
 
         div {
-            padding-top: 60px;
-            padding-right: 150px;
-            padding-left: 5px;
-            padding-bottom: 50px;
-            margin-top: 163px;
-            margin-left: 50px;
-            border-top-width: 50px;
+            padding-block: 60px;
+            margin-top: 25px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-top-width: 1px;
         }
 
-        main,footer,div,header {
-            border: 1px solid darkgrey;
+        * {
+            border: darkgrey1px solid darkgrey;
         }
-
         footer {
             float: bottom;
             justify-content: left;
