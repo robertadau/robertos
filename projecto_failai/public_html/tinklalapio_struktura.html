@@ -7,14 +7,13 @@
     <style>
 
         header {
-            display: flex;
-            justify-content: space-between;
-            background: white;
-            margin: 25px;
-            height: 50px;
-            border: hidden;
-            padding: 30px;
+            width: 1350px;
+            padding: 10px;
+            height: 100px;
+            margin: 10px 0px 5px 0px;
+            display: block;
         }
+
 
         logo {
             max-width: 100%;
@@ -22,10 +21,12 @@
         }
 
         aside {
-            background: white;
+           display: block;
+            margin: 10px;
+            padding: 0;
+            width: 400px;
+            height: 200px;
             float: right;
-            display: flex;
-            margin: 1px;
         }
 
         img {
@@ -54,19 +55,12 @@
         }
 
         main {
-            text-indent: 145px;
-            display: flex;
-            justify-content: left;
-            margin: 1px;
-            background: white;
-        }
-
-        div {
-            margin-top: 25px;
-            margin-left: 5px;
-            margin-right: 5px;
-            border-top-width: 1px;
-            justify-content: left;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+            width: 902px;
+            display: block;
+            position: relative;
         }
 
         * {
@@ -74,9 +68,16 @@
         }
 
         footer {
-            float: bottom;
-            justify-content: left;
+            width: 1350px;
+            clear: both;
+            margin: 0px 0px 10px 0px;
+            padding: 10px;
+            background-color: red;
+            display: block;
         }
+
+
+
 
         /* Extra maži įrenginiai (telefonai, 600px ir žemiau) */
         @media only screen and (max-width: 600px) {
@@ -118,8 +119,8 @@
         "h h h"
         "m m a"
         "f f f";
-                grid-template-rows: 50px auto 50px;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 2fr 6fr 2fr;
+                grid-template-columns: 6fr 1fr 1fr;
             }
 
             .app > aside {
