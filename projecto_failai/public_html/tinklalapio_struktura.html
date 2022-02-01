@@ -14,6 +14,15 @@
             border: hidden;
         }
 
+        logo {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        app > * {
+            padding: 5px;
+        }
+
         aside {
             background: white;
             float: right;
@@ -22,12 +31,29 @@
 
         }
 
-        nav > a:hover {
-            background: red;
-            float: end;
-            margin: 25px;
-            padding: inherit;
+        img {
             border: hidden;
+        }
+
+        nav {
+            float: right;
+            display: flex;
+            height: 100%;
+            align-items: center;
+            font-size: 2vh;
+        }
+
+        nav a {
+            border: none;
+            border-right: 1px solid green;
+            margin: 0 1em 0 0;
+            padding-right: 1em;
+        }
+
+        nav a:last-child { /* Taikomas Twiter nuorodai psalinti zalia bruksni */
+            border: none;
+            margin-left: 0;
+            padding-right: 0;
         }
 
         main {
@@ -58,6 +84,7 @@
         footer {
             float: bottom;
             justify-content: left;
+            grid-area: f;
     </style>
 
 </head>
@@ -65,8 +92,15 @@
 <body>
 
 <header>
-    <img src="/publicc_html/img/logo.png" alt="LOGO"/>
-    <a>Pradzia</a> | <a>Portfolio</a> | <a>Kontaktai</a> | <a href="https://google.lt">Google</a> | <a href="https://facebook.com">FB</a> | <a href="https://twitter.com">Twitter</a>
+    <img src="/img/logo.png" alt="LOGO" class="logo"/>
+    <nav>
+        <a href="/">Pradzia</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/kontaktai.html">Kontaktai</a>
+        <a href="https://google.lt">Google</a>
+        <a href="https://facebook.com">FB</a>
+        <a href="https://twitter.com">Twitter</a>
+    </nav>
 </header>
 
 <aside>
@@ -75,9 +109,9 @@
 
 <main>
     <section>
-    <div>Mano pagrindinis tekstas</div>
-    <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</div>
-    <div>
+        <div>Mano pagrindinis tekstas</div>
+        <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</div>
+        <div>
             <li><span>1 Elementas</span></li>
             <li><span>2 Elementas</span></li>
             <li><span>3 Elementas</span></li>
@@ -87,12 +121,12 @@
             <li><span>7 Elementas</span></li>
             <li><span>8 Elementas</span></li>
             <li><span>9 Elementas</span></li>
-    </div>
+        </div>
     </section>
 </main>
 
 <footer>
-    c2022 Visos teisės saugomos
+    &copy;2022 Visos teises saugomos
 </footer>
 </body>
 </html>

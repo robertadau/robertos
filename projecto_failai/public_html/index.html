@@ -1,1 +1,213 @@
-Labas
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       .header {
+           display: flex;
+           justify-content: space-between;
+           background: whitesmoke;
+           margin: 25px;
+           height: 50px;
+       }
+
+       .aside {
+           background: whitesmoke;
+           float: right;
+           margin: 150px;
+           padding-top: 50px;
+           padding-right: 30px;
+           padding-left: 80 px;
+       }
+
+       .nav {
+           background: blue;
+           float: end;
+           margin: 25px;
+           padding: inherit;
+       }
+
+       .main {
+           text-indent: 145px;
+           display: flex;
+           justify-content: left;
+           margin: 20px;
+           background: whitesmoke;
+       }
+
+       .div {
+           padding-top: 50px;
+           padding-right: 30px;
+           padding-left: 80px;
+       }
+
+       .main,footer,aside,div,header {
+           border: 1px solid darkgrey;
+       }
+
+       .footer {
+           float: bottom;
+           justify-content: left;
+
+       .app  > header {
+           grid-area: h;
+       }
+       .app  > aside {
+           grid-area: a;
+           text-align: center;
+           font-size: 2vh;
+       }
+       .app  > main {
+           grid-area: m;
+       }
+       .app  > footer {
+           grid-area: f;
+       }
+       .app  {
+           display: grid;
+           grid-template-areas:
+        "h h"
+        "a m"
+        "f f"
+       ;
+           grid-template-rows: 8% 7fr 1fr;
+           grid-template-columns: 2fr 10fr;
+           grid-gap: 5px;
+       }
+       .app > * {
+           padding: 5px;
+       }
+       header .logo {
+           max-width: 100%;
+           max-height: 100%;
+       }
+       header > nav {
+           float: right;
+           display: flex;
+           height: 100%;
+           align-items: center;
+           font-size: 2vh;
+       }
+       header > nav a {
+           border: none;
+           border-right: 1px solid green;
+           margin: 0 1em 0 0;
+           padding-right: 1em;
+       }
+       header > nav a:last-child { /* Taikomas Twiter nuorodai psalinti zalia bruksni */
+           border: none;
+           margin-left: 0;
+           padding-right: 0;
+       }
+       /* Extra maži įrenginiai (telefonai, 600px ir žemiau) */
+       @media only screen and (max-width: 600px) {
+           .app  {
+               grid-template-areas:
+        "h"
+        "m"
+        "f"
+           ;
+               grid-template-rows: 50px auto 50px;
+               grid-template-columns: 1fr;
+           }
+           .app  > aside {
+               display: none;
+           }
+       }
+
+       /* Vidutiniai įrenginiai (gulsčios planšetės ar maži laptopai, 768px ir aukščiau) */
+       @media only screen and (min-width: 768px) {
+           .app  {
+               grid-template-areas:
+        "h h"
+        "m a"
+        "f f"
+           ;
+               grid-template-rows: 50px auto 50px;
+               grid-template-columns: 2fr 1fr;
+           }
+           .app  > aside {
+               display: block;
+           }
+       }
+
+
+       /* Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
+       @media only screen and (min-width: 1200px) {
+           .app  {
+               grid-template-areas:
+        "h h h"
+        "m m a"
+        "f f f"
+           ;
+               grid-template-rows: 50px auto 50px;
+               grid-template-columns: 1fr 1fr 1fr;
+           }
+           .app  > aside {
+               display: block;
+           }
+       }
+   </style>
+</head>
+<body>
+<div class="app">
+    <header>
+        <img src="/img/logo.png" alt="LOGO" class="logo"/>
+        <nav>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="/">Pradzia</a>
+            <a href="/portfolio.html">Portfolio</a>
+            <a href="/kontaktai.html">Kontaktai</a>
+            <a href="https://google.lt">Google</a>
+            <a href="https://facebook.com">FB</a>
+            <a href="https://twiter.com">Twiter</a>
+        </nav>
+    </header>
+
+    <aside>
+        <span>REKLAMA</span>
+    </aside>
+
+    <main>
+        <section>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+            <div>&lt;DIV&gt;</div>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2022 Visos teises saugomos
+    </footer>
+</div>
+</body>
+</html>
