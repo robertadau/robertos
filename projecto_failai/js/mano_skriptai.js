@@ -6,3 +6,5 @@ console.log(metai % 10 + menuo % 10 + diena % 10);
 
 
 
+
+
