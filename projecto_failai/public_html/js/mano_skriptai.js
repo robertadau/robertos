@@ -1,8 +1,7 @@
-var b = 'Roberta Daugėlaitė';
-var c = 'Mano vardas';
-
-console.log(b + c);
-  
+a = 1;
+a = 'Kintamojo a reikšmė';
+a = 2;
+a = 'Kintamojo a reikšmė'
 
 
 
