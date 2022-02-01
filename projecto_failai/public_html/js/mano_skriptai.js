@@ -1,5 +1,5 @@
-const b = 'Roberta Daugėlaitė';
-const c = 'Mano vardas';
+var b = 'Roberta Daugėlaitė';
+var c = 'Mano vardas';
 
 console.log(b + c);
   
