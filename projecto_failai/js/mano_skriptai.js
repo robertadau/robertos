@@ -1,7 +1,8 @@
-let x = 5;
-let y = 6;
-let z = x + y;
+let metai = 1999;
+let menuo = 12;
+let diena = 11;
 
+console.log(metai % 10 + menuo % 10 + diena % 10);
 
 
 
