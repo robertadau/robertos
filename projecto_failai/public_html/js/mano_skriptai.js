@@ -1,8 +1,8 @@
-let metai = 1984;
-let menuo = 11;
-let diena = 27;
+let b = 'Roberta Daugėlaitė';
+let c = 'Mano vardas';
+let z = b + c
 
-console.log(metai % 10 + menuo % 10 + diena % 10);
+
 
 
 
