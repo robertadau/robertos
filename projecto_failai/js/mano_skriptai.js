@@ -1,5 +1,5 @@
-let x = 'Labas pasauli';
-let z = x + 'Kaip tau sekasi?'
+let a = 1;
+a = '1';
 
-alert(z);
-
+let a = 2;
+a = '2';
