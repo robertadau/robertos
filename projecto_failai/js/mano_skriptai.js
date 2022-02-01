@@ -1,5 +1,5 @@
-let a = 1;
+let person = "Roberta";
+person = {firstName: "Roberta",
+    lastName: "Daugelaite"
+};
 
-
-let a = 2;
-a = '2';
