@@ -1,11 +1,8 @@
-a = 1;
-a = 'Kintamojo a reikšmė';
-a = 2;
-a = 'Kintamojo a reikšmė'
+b = 'Roberta Daugelaite';
+c = 'mano vardas';
+d = b + 'mano vardas';
 
-
-
-
+console.log(d)
 
 
 
