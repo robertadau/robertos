@@ -1,5 +1,7 @@
-let person = "Roberta";
-person = {firstName: "Roberta",
-    lastName: "Daugelaite"
-};
+let x = 5;
+let y = 6;
+let z = x + y;
+
+
+
 
