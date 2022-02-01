@@ -1,6 +1,6 @@
 b = 'Roberta Daugelaite';
 c = 'mano vardas';
-d = b + 'mano vardas';
+d = 'mano vardas' + b;
 
 console.log(d)
 
