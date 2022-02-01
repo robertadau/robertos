@@ -1,8 +1,8 @@
 b = 'Roberta Daugėlaitė';
 c = 'Mano vardas';
-const x = () => {
+console.log(b + c);
   
-}
+
 
 
 
