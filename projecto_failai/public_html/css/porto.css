@@ -13,9 +13,9 @@ div {
     margin: 0;
 }
 
-head {
+nav {
     width: 320px;
     padding: 10px;
-    border: 5px solid gray;
+    border: 1px solid gray;
     margin: 0;
 }
