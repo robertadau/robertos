@@ -2,6 +2,12 @@
    border: 1px solid darkgrey;
 }
 
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,8 +16,9 @@ div {
     padding: 80px 50px 75px 60px;
     }
 
-aside {
+span {
     padding-right: 50px;
+    grid-template-columns: auto;
 
 }
 
@@ -26,4 +33,6 @@ nav {
 logo {
     max-width: 100px;
     max-height: 100px;
+    float: left;
 }
+
