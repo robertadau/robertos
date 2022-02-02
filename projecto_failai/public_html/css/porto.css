@@ -12,6 +12,13 @@ div {
 
 aside {
     padding-right: 50px;
-    float: right;
 
+}
+
+nav {
+    float: right;
+}
+
+header {
+    padding: 10px 15px 20px 30 px;
 }
