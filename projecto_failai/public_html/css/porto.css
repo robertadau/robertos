@@ -16,5 +16,5 @@ div {
 nav {
     display: grid;
     height: 400px;
-    align-content: space-between;
+    align-content: end;
 }
