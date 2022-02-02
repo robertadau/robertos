@@ -14,8 +14,7 @@ div {
 }
 
 nav {
-    width: 320px;
-    padding: 10px;
-    border: 1px solid gray;
-    margin: 0;
+    display: grid;
+    height: 400px;
+    align-content: space-between;
 }
