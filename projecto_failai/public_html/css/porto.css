@@ -11,6 +11,7 @@ div {
     }
 
 aside {
-padding-right: 50px;
+    padding-right: 50px;
+    float: right;
 
 }
