@@ -55,6 +55,7 @@ main {
     width: 902px;
     display: block;
     position: relative;
+    grid-auto-columns: auto;
 }
 
 * {
@@ -62,13 +63,15 @@ main {
 }
 
 footer {
-    width: 1350px;
-    clear: both;
-    margin: 0px 0px 10px 0px;
-    padding: 10px;
-    background-color: red;
-    display: block;
+    grid-auto-columns: auto;
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
+
 
 div {
     border: 1px solid black;
