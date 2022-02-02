@@ -7,8 +7,9 @@ body {
 }
 
 div {
-    width: 300px;
-    border: 15px burlywood;
-    padding: 25px;
-    margin: 10px;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
 }
