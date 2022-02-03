@@ -1,7 +1,5 @@
-let b = 'Roberta + Daugelaite';
-let c = 'Mano + vardas';
-
-let d = c + b;
+let c = "Mano vardas";
+b = "Roberta Daugelaite";
 
 
 
