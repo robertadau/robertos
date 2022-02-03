@@ -1,8 +1,6 @@
-let b = 'Roberta Daugelaite';
-let c = 'Mano vardas';
-d = 'Mano vardas' + b;
-
-console.log (d);
+const b = 'Roberta Daugelaite';
+const c = 'Mano vardas';
+let total = c + b;
 
 
 
