@@ -1,6 +1,7 @@
-const b = 'Roberta Daugelaite';
-const c = 'Mano vardas';
-let total = c + b;
+let b = 'Roberta + Daugelaite';
+let c = 'Mano + vardas';
+let d = c + b;
+
 
 
 
