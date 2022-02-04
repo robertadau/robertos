@@ -52,6 +52,7 @@ if (x === -4 || y === 0) {
     window.alert(msg);
     console.log(msg);
 }
+
 else if (x === '-4' || y === '0') {
     let msg = 'rezis';
     window.alert(msg);
