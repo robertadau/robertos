@@ -1,6 +1,5 @@
-body {
+.body {
     line-height: 1.6;
-
     display: grid;
     grid-template-rows: 5em 3em;
     grid-template-columns: 2fr 5fr 4fr;
@@ -10,17 +9,17 @@ body {
     "footer footer footer footer"
 }
 
-header {
+.header {
     grid-area: header;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: right;
     align-items: self-end;
 }
 
-footer {
+.footer {
     background: darkslategrey;
     color: whitesmoke;
     display: flex;
@@ -28,26 +27,24 @@ footer {
     align-items: flex-start;
 }
 
-img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-height: 100em;
-    max-width: 100em;
+
+.logo {
+    max-height: border-box;
+    max-width: border-box;
 }
 
-section {
+.section {
     grid-area: section;
 }
 
-main {
+.main {
     grid-area: main;
 }
 
-aside {
+.aside {
     grid-area: aside;
 }
 
-footer {
+.footer {
     grid-area: footer;
 }
