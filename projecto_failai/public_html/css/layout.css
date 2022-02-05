@@ -14,11 +14,9 @@ header {
     grid-area: header;
 }
 
-header {
-    background: darkslategrey;
-    color: blue;
+nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     align-items: self-end;
 }
 
@@ -28,6 +26,14 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 100em;
+    max-width: 100em;
 }
 
 section {
