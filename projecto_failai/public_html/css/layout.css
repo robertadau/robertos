@@ -35,7 +35,7 @@ footer {
 section {
     grid-area: section;
     background: coral;
-    display: flex;
+    display: -moz-box;
     flex-direction: row;
 }
 
