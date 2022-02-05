@@ -37,7 +37,7 @@ header {
     grid-area: section;
 }
 
-.main {
+main {
     grid-area: main;
 }
 
