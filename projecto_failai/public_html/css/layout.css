@@ -5,8 +5,12 @@ body {
     grid-template-rows: 10em 50em;
     grid-template-columns: 1fr 5fr;
     grid-template-areas: "header header"
+    "section section"
     ". main aside ."
     "footer footer"
-
-
 }
+
+header {
+    grid-area: header;
+}
+
