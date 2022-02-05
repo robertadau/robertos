@@ -4,6 +4,9 @@ body {
     display: grid;
     grid-template-rows: 10em 50em;
     grid-template-columns: 1fr 5fr;
-    grid-template-areas: "header header header header"
+    grid-template-areas: "header header"
+    ". main aside ."
+    "footer footer"
+
 
 }
