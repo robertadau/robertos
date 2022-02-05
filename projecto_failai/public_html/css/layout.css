@@ -9,7 +9,7 @@ body {
     "footer footer footer footer"
 }
 
-.header {
+header {
     grid-area: header;
 }
 
