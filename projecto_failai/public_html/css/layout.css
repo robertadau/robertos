@@ -1,19 +1,20 @@
 body {
     line-height: 1.6;
     display: grid;
-    grid-template: "header header header header" 10em
-    "section section section section" 10vh;
-    ". main aside ." auto
-    "footer footer footer footer" 10em
-    / 1fr 5fr 2fr 1fr
+    grid-column-gap: 1em;
+    grid-template-rows: 1fr 3fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    grid-template-areas: "header header header header"
+    ". main aside ."
+    "footer footer footer footer"
 }
 
 header {
     grid-area: header;
 }
 
-.nav {
-    display: inline-list-item;
+.nav aside {
+    display: inline-grid;
     justify-content: end;
     align-items: self-end;
 }
@@ -46,6 +47,7 @@ main {
 
 aside {
     grid-area: aside;
+    padding: 0em 0em 0em 0em;
 }
 
 footer {
