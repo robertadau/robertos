@@ -14,3 +14,11 @@ header {
     grid-area: header;
 }
 
+section {
+    grid-area: section;
+}
+
+main {
+    grid-area: main;
+}
+
