@@ -2,7 +2,15 @@
    border: 1px solid darkgrey;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 6px;
+    margin-inline-end: 0px;
+    margin-top: 163px;
+    margin-left: 50px;
+    padding:20px 50px 5px 60px;
+    border-top-width: 50px;
 }
+

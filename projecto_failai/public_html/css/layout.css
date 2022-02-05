@@ -13,10 +13,10 @@ header {
     grid-area: header;
 }
 
-.nav aside {
+.nav {
     display: inline-grid;
     justify-content: end;
-    align-items: self-end;
+    align-items: flex-end;
 }
 
 footer {
@@ -28,17 +28,17 @@ footer {
 }
 
 .logo {
-    max-height: border-box;
-    max-width: border-box;
+    max-height: 100px;
+    max-width: 100px;
 }
 
-section {
-    grid-area: section;
+div {
     background: coral;
-    display: -moz-grid-line;
+    display: grid;
     flex-direction: row;
-    align-items: first;
+    align-items: flex-start;
     justify-content: flex-start;
+    border: hidden;
 }
 
 main {
