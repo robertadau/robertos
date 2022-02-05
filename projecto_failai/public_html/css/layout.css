@@ -2,7 +2,7 @@ body {
     line-height: 1.6;
 
     display: grid;
-    grid-template-rows: 10em 10em;
+    grid-template-rows: 10em 60em;
     grid-template-columns: 1fr 5fr;
     grid-template-areas: "header header header header"
 
