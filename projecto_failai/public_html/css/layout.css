@@ -2,8 +2,8 @@ body {
     line-height: 1.6;
 
     display: grid;
-    grid-template-rows: 10em 50em;
-    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 10em 50em 10em;
+    grid-template-columns: 1fr 5fr 2fr;
     grid-template-areas: "header header header header"
     "section section section section"
     ". main aside ."
