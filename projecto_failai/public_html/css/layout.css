@@ -1,8 +1,9 @@
-main, aside {
+body {
     line-height: 1.6;
 
     display: grid;
-    grid-template-rows: 10 em 50vh 10em;
+    grid-template-rows: 10em 50vh 10em;
     grid-template-columns: 1fr 5fr 2fr ;
+    grid-template-areas: "header header header header"
 
 }
