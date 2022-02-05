@@ -19,14 +19,13 @@ header {
     align-items: self-end;
 }
 
-.footer {
+footer {
     background: darkslategrey;
     color: whitesmoke;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 
 .logo {
     max-height: border-box;
