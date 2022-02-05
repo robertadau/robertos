@@ -33,7 +33,7 @@ header {
     max-width: border-box;
 }
 
-.section {
+section {
     grid-area: section;
 }
 
