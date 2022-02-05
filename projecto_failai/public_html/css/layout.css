@@ -41,7 +41,7 @@ main {
     grid-area: main;
 }
 
-.aside {
+aside {
     grid-area: aside;
 }
 
