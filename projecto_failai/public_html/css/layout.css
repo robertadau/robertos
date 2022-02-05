@@ -22,7 +22,13 @@ header {
     align-items: self-end;
 }
 
-
+footer {
+    background: darkslategrey;
+    color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
 section {
     grid-area: section;
