@@ -36,6 +36,7 @@ section {
     grid-area: section;
     background: coral;
     display: table-row-group;
+    flex-direction: row;
 }
 
 main {
