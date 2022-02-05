@@ -2,7 +2,7 @@ body {
     line-height: 1.6;
     display: grid;
     grid-template-rows: 5em 3em;
-    grid-template-columns: 2fr 5fr 4fr;
+    grid-template-columns: 2fr 5fr 4fr 2fr;
     grid-template-areas: "header header header header"
     "section section section section"
     ". main aside ."
@@ -37,7 +37,8 @@ section {
     background: coral;
     display: -moz-grid-line;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: first;
+    justify-content: flex-start;
 }
 
 main {
