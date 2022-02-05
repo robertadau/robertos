@@ -14,7 +14,7 @@ header {
 }
 
 .nav {
-    display: flex;
+    display: inline-list-item;
     justify-content: end;
     align-items: self-end;
 }
