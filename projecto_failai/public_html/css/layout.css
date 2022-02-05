@@ -2,7 +2,7 @@ body {
     line-height: 1.6;
     display: grid;
     grid-template: "header header header header" 10em
-    "section section section section" 0em;
+    "section section section section" 10vh;
     ". main aside ." auto
     "footer footer footer footer" 10em
     / 1fr 5fr 2fr 1fr
