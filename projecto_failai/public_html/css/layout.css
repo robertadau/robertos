@@ -24,7 +24,7 @@ header {
 
 footer {
     background: darkslategrey;
-    color: blue;
+    color: whitesmoke;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
