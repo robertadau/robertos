@@ -3,7 +3,7 @@ body {
 
     display: grid;
     grid-template-rows: 5em 3em;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 10fr;
     grid-template-areas: "header header header header"
     "section section section section"
     ". main aside ."
