@@ -14,7 +14,7 @@ header {
     grid-area: header;
 }
 
-header, footer {
+header {
     background: darkslategrey;
     color: blue;
     display: flex;
