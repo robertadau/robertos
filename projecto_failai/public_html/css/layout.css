@@ -14,6 +14,16 @@ header {
     grid-area: header;
 }
 
+header, footer {
+    background: darkslategrey;
+    color: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: self-end;
+}
+
+
+
 section {
     grid-area: section;
 }
