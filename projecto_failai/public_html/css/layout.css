@@ -35,6 +35,7 @@ footer {
 section {
     grid-area: section;
     background: coral;
+    display: flex;
 }
 
 main {
