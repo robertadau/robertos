@@ -45,6 +45,6 @@ aside {
     grid-area: aside;
 }
 
-.footer {
+footer {
     grid-area: footer;
 }
