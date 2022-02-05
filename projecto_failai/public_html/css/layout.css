@@ -35,7 +35,7 @@ footer {
 section {
     grid-area: section;
     background: coral;
-    display: inline-grid;
+    display: ruby-base-container;
 }
 
 main {
