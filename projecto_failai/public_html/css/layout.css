@@ -1,44 +1,15 @@
-body {
-    line-height: 1.6;
-    display: grid;
-    grid-column-gap: 1em;
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-areas: "header header header header"
-    ". main aside ."
-    "footer footer footer footer"
+.body {
+   display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-areas:
+            "header header header header"
+            "main main main aside"
+            "footer footer footer footer"
 }
 
 header {
     grid-area: header;
-}
-
-.nav {
-    display: inline-grid;
-    justify-content: end;
-    align-items: flex-end;
-}
-
-footer {
-    background: darkslategrey;
-    color: whitesmoke;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.logo {
-    max-height: 100px;
-    max-width: 100px;
-}
-
-div {
-    background: coral;
-    display: grid;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: hidden;
 }
 
 main {
@@ -46,8 +17,7 @@ main {
 }
 
 aside {
-    grid-area: aside;
-    padding: 0em 0em 0em 0em;
+    grid-area: sidebar;
 }
 
 footer {
