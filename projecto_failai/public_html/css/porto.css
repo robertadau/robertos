@@ -10,7 +10,23 @@ p {
     margin-inline-end: 0px;
     margin-top: 163px;
     margin-left: 50px;
-    padding:20px 50px 5px 60px;
+    padding:20px 50px 5px 0px;
     border-top-width: 50px;
 }
+
+span {
+    display: block;
+}
+
+nav a after {
+    content: " | ";
+    float: right;
+    color: blue;
+}
+
+nav a :last-child::after {
+    display: none;
+}
+
+
 
