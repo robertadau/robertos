@@ -31,12 +31,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 20px;
 }
 
 .header {
     padding: 20px;
     background-color: chocolate;
 }
+
 
 
 
