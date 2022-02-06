@@ -2,7 +2,7 @@
    border: 1px solid darkgrey;
 }
 
-p {
+.main {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -14,17 +14,17 @@ p {
     border-top-width: 50px;
 }
 
-nav a after {
+.nav a after {
     content: " | ";
 }
 
-nav a :last-child::after {
+.nav a :last-child::after {
     display: none;
     border-right: none;
     border: hidden;
 }
 
-nav {
+.nav {
     overflow: hidden;
     display: flex;
     align-items: flex-end;
