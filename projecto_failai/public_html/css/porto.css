@@ -16,6 +16,7 @@
 
 .nav a :last-child::after {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav {
