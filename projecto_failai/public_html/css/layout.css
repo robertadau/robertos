@@ -6,7 +6,6 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
     "header header header header"
-    "nav nav nav nav"
     "main main main aside"
     "footer footer footer footer";
 }
@@ -17,10 +16,6 @@ header {
 
 main {
     grid-area: main;
-}
-
-nav {
-    grid-area: nav;
 }
 
 aside {
