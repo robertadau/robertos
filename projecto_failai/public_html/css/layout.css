@@ -18,6 +18,10 @@ main {
     grid-area: main;
 }
 
+nav {
+    grid-area: nav;
+}
+
 aside {
     grid-area: aside;
 }
