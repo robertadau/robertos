@@ -15,7 +15,7 @@
 }
 
 .nav a :last-child::after {
-    display: none;
+    display: flex;
 }
 
 .nav {
