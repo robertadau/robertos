@@ -4,9 +4,9 @@ body {
     1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    ". header header ."
-    "main main . aside"
-    ". footer footer .";
+    "header header header header"
+    "main main main aside"
+    "footer footer footer footer";
 }
 
 header {
