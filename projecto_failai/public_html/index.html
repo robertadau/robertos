@@ -2,8 +2,37 @@
 <html lang="lt">
 <head>
     <script>
-        alert('Labas pasauli')
+            let a = -5;
+            let b = 0;
+            let c = -4;
+            let d = 4;
+            let x = '???';
+            let y = '???';
+
+            if (a > b || d < c || d < a || c > b) {
+            window.alert('Sankirta negalima');
+        } else {
+            if (c <= a && a <= d) {
+            x = a;
+        }
+            if (a <= c && c <= d) {
+            x = c;
+        }
+            if (a <= d && d <= b) {
+            y = d;
+        }
+            if (c <= b && b <= d) {
+            y = b;
+        }
+
+            let atsakymas = x + ' ir ' + y
+
+            document.getElementById('ats').innerHTML = 'Rasta sankirta: ' + x + 'ir' + y;
+            document.getElementById('ats').innerHTML = 'Rasta sankirta: ' + atsakymas;
+        }
+
     </script>
+
     <meta charset="UTF-8"/>
     <script src="js/mano_skriptai.js"></script>
 
@@ -14,22 +43,9 @@
 <h1>Sankirtos</h1>
 <p id="ats">Nerastas atsakymas</p>
 
-<script>
-    let n1 = 5;
-    let n2 = 6;
-
-   S1 = (n1 -2) * 180;
-   S2 = (n2 -2) * 180;
-
-   let atsakymas = n1 + ' kampu suma: ' + S1;
-   atsakymas += '<br>' + n2 + ' kampu suma: ' + S2;
-   atsakymas += '<br>' Visu daugiakampiu suma: ' + (S2 + S1)';
-
-   document.getElementById('ats').innerHTML = atsakymas;
-   </script>
 
 <main>
-Labas pasauli
+Sankirta negalima
 </main>
 
 
