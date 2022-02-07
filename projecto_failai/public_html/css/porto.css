@@ -3,11 +3,8 @@
 }
 
 .main {
-    display: block;
-    padding:20px 40px 5px 10px;
+    display: flex;
     justify-content: center;
-    margin: 0 auto;
-
 }
 
 .nav a {
@@ -29,15 +26,19 @@ nav a.hover {
 }
 .footer {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 20px;
+    justify-content: center;
+    text-indent: 145px;
+    background-color: cornflowerblue;
 }
 
 .header {
-    padding: 20px 10px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
     background-color: chocolate;
 }
+
+
 
 
 

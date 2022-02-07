@@ -2,10 +2,10 @@ body {
     display: grid;
     grid-gap: 10px;
     grid-template-columns:
-    1fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
     grid-template-areas:
-    "header header header header"
+    "header header nav nav"
     "main main main aside"
     "footer footer footer footer";
 }
