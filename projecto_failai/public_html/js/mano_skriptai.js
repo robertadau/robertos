@@ -9,3 +9,15 @@ function toggleLamp() {
     }
     lemposBusena = !lemposBusena;
 }
+
+
+
+let z = myFunction(10, 40);
+
+function myFunction(a, b) {
+    return a * b;
+}
+
+
+
+
