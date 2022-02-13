@@ -107,7 +107,7 @@ nav {
 /* Mano-paslaugos section */
 
 .mano-paslaugos {
-    background-color: var(--clr-grey);
+    background: lightgreen;
     background-image: url(../img/sunset.jpg);
     background-size: cover;
     background-blend-mode: multiply;
