@@ -102,9 +102,18 @@ nav {
         left: -1.5em;
         width: calc(100% + 1.5em)
     }
-
 }
 
+/* Mano-paslaugos section */
+
+.mano-paslaugos {
+    background-color: var(--clr-grey);
+    background-image: url(../img/sunset.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: var(--clr-white);
+
+}
 
 
 
