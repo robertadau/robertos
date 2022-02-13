@@ -9,6 +9,10 @@ body {
     line-height: 1.6;
 }
 
+section {
+    padding: 5em 2em;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -17,13 +21,67 @@ img {
 h1,
 h2,
 h3 {
-    line-height: 1.1;
+    line-height: 1;
     margin: 0;
 }
 
 h1 { font-size: var(--fs-h1)}
 h2 { font-size: var(--fs-h2)}
 h3 { font-size: var(--fs-h3)}
+
+.section__title {
+    margin-bottom: .25em;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-bold);
+}
+
+.section__title-intro strong {
+    dispplay: block;
+}
+
+.section_subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-blue);
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+/* header */
+
+nav {
+    display: none;
+}
+
+.intro {
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas:
+        "img title"
+        "img subtitle";
+        grid-temmplate-columns: min-content max-content;
+    }
+
+    .intro__img {
+        grid-area: img;
+        min-width: 250px;
+    }
+}
+
+
 
 
 
