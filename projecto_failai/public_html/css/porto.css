@@ -130,10 +130,22 @@ nav {
     opacity: 0.5;
 }
 
+.service {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 @media (min-width: 800px) {
     .paslaugos {
         display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
     }
+
+    .paslauga + .paslauga {
+        margin-left: 2em;
+    }
+
 }
 
 
