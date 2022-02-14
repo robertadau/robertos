@@ -22,15 +22,28 @@ strong {
     font-weight: bold;
 }
 
+:focus {
+    outline: 3px solid green;
+}
+
+/* Mygtukai */
+
 .btn {
     display: inline-block;
     padding: .5em 1.5em;
-    background: -moz-mac-accentlightshadow;
+    background: lightgreen;
     color: var(--clr-grey);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: transform 200ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 h1,
