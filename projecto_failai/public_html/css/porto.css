@@ -112,7 +112,12 @@ nav {
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-white);
+    text-align: center;
+}
 
+.section__title--paslaugos {
+    color: var(--clr-blue);
+    position: relative;
 }
 
 
