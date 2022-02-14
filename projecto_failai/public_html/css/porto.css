@@ -1,8 +1,8 @@
 /* Pagrindinis stilius */
 
 body {
-    background: var(--clr-white);
-    color: var(--clr-grey);
+    background: snow;
+    color: black;
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -16,6 +16,21 @@ section {
 img {
     display: block;
     max-width: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 1.5em;
+    background: -moz-mac-accentlightshadow;
+    color: var(--clr-grey);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
 }
 
 h1,
@@ -34,7 +49,7 @@ h3 { font-size: var(--fs-h3)}
 }
 
 .section__title--intro {
-    font-weight: var(--fw-bold);
+    font-weight: lighter;
 }
 
 .section__title-intro strong {
@@ -111,12 +126,12 @@ nav {
     background-image: url(../img/sunset.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    color: var(--clr-white);
+    color: black;
     text-align: center;
 }
 
 .section__title--paslaugos {
-    color: var(--clr-blue);
+    color: darkslategrey;
     position: relative;
 }
 
@@ -126,7 +141,7 @@ nav {
     width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: cadetblue;
+    background: brown;
     opacity: 0.5;
 }
 
