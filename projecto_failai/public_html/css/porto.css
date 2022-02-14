@@ -120,6 +120,16 @@ nav {
     position: relative;
 }
 
+.section__title-paslaugos::after {
+    content: '';
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: cadetblue;
+}
+
+
 
 
 
