@@ -173,10 +173,14 @@ header {
 }
 
 .nav-toggle {
-    padding: .25em;
+    padding: .5em;
     background: transparent;
     border: 0;
     cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
 }
 
 .hamburger {
@@ -187,7 +191,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background-color: var(--clr-grey);
+    background-color: var(--clr-blue);
     width: 2em;
     height: 3px;
     border-radius: 1em;
