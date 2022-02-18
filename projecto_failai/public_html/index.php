@@ -1,5 +1,5 @@
 <?php
-$ceu = array( "Italy" => "Rome", "Luxembourg" => "Luxembourg",
+$ceu = array("Italy" => "Rome", "Luxembourg" => "Luxembourg",
     "Belgium" => "Brussels", "Denmark" => "Copenhagen",
     "Finland" => "Helsinki", "France" => "Paris",
     "Slovakia" => "Bratislava", "Slovenia" => "Ljubljana",
@@ -12,11 +12,9 @@ $ceu = array( "Italy" => "Rome", "Luxembourg" => "Luxembourg",
     "Hungary" => "Budapest", "Latvia" => "Riga",
     "Malta" => "Valetta", "Austria" => "Vienna",
     "Poland" => "Warsaw") ;
-
 asort($ceu) ;
-
 foreach($ceu as $valstybė => $sostinė)
 {
-    echo "$valstybė sostinė yra $sostinė"."\n" ;
+    echo "$valstybė sostinė yra $sostinė". "<br/>" ;
 }
 ?>
