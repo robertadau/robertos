@@ -18,3 +18,47 @@ foreach($ceu as $valstybė => $sostinė)
     echo "$valstybė sostinė yra $sostinė". "<br/>" ;
 }
 ?>
+
+/* 1 uzduotis, c */
+
+<?php
+
+phpinfo();
+
+$masyvasA = [
+[1,2,3,4,5,6,7,8,9],
+['a', 's', 'd'],
+[
+[1,2,3,4,5,6,7,8,9],
+[1,2,3,4,5,6,7,8,9],
+[1,2,3,4,5,6,7,8,9],
+[1,2,3,4,5,6,7,8, asdfasd],
+]
+];
+
+$f = [9,8,7,6,5,4,5]
+
+
+
+/* kita uzduotis */
+
+
+
+<?php
+
+$masyvasA = [
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    ];
+
+foreach ($masyvas as $key => $value) {
+    echo "Pirmas lygis: ciklas $key \n";
+    foreach ($value as $key2 => $value2) {
+        echo "Antras lygis: indeksas $key2 reiksme $value2 \n";
+    }
+}
+
+
+

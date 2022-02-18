@@ -192,7 +192,7 @@ header {
 }
 
 .nav-open .hamburger {
-    transform: rotate(.625turn);
+    transform: rotate(.750turn);
 }
 
 .hamburger {
