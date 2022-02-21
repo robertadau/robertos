@@ -244,7 +244,7 @@ header {
         grid-template-areas:
         "img title"
         "img subtitle";
-        grid-temmplate-columns: min-content max-content;
+        grid-template-columns: min-content max-content;
     }
 
     .intro__img {
@@ -373,10 +373,18 @@ header {
                 opacity: .75;
 }
 
-.portfolio__img:hover {
-    transform: scale(1,2);
-    opacity: .75;
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
 }
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1,2);
+    opacity: .5;
+}
+
+
 
 
 
