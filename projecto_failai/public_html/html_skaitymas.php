@@ -6,3 +6,10 @@ fclose($myfile);
 
 ?>
 
+
+
+<?php
+
+echo file_get_contents("duomenys.html");
+
+?>
