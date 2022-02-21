@@ -40,6 +40,10 @@
 
 /* Pagrindinis stilius */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: snow;
     color: black;
