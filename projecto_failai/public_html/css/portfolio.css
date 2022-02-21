@@ -6,8 +6,8 @@
 /*  pagrindiniai nustatymai, pakeisti galima pagal savo dizaina */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'PT Sans', sans-serif;
+    --ff-secondary: 'Roboto Mono', monospace;;
 
     --ff-reg: 300;
     --fw-bold: 900;
@@ -345,9 +345,38 @@ header {
 
     .about-me__img {
         grid-area: img;
+        position: relative;
+        z-index: 2;
     }
 }
 
+/* Mano darbai */
+
+.my-work {
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.portfolio__item {
+    background: var(--clr-blue);
+    overflow: hidden;
+}
+
+.portfolio__img {
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1);
+                opacity: .75;
+}
+
+.portfolio__img:hover {
+    transform: scale(1,2);
+    opacity: .75;
+}
 
 
 
