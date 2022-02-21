@@ -9,9 +9,8 @@ fclose($myfile);
 
 
 <?php
-
-echo file_get_contents("duomenys.html");
-
+$file = fopen("duomenys.html", mode: "r");
+echo fgets($file);
+fclose($file);
 ?>
-
 
