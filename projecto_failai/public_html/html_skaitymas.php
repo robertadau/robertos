@@ -9,7 +9,7 @@ fclose($myfile);
 
 
 <?php
-$x = "Hello world!";
+$x = "Labas pasauli";
 
 echo $x;
 echo "<br>"
