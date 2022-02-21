@@ -9,8 +9,11 @@ fclose($myfile);
 
 
 <?php
-$file = fopen("duomenys.html", mode: "r");
-echo fgets($file);
-fclose($file);
+$x = "Hello world!";
+
+echo $x;
+echo "<br>"
+
 ?>
+
 
