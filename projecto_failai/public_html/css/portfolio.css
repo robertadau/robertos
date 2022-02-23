@@ -269,7 +269,7 @@ header {
 /* Mano-paslaugos section */
 
 .mano-paslaugos {
-    background: lightgreen;
+    background: darkseagreen;
     background-image: url("../img/dringio_ez.jpg");
     background-size: cover;
    /* background-blend-mode: multiply; */
