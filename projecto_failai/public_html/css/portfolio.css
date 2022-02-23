@@ -22,7 +22,7 @@
     --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
-    0.125em 0.125 0.25em rgba(0, 0, 0, 0.15);
+          0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
@@ -33,9 +33,6 @@
         --fs-body: 1.125rem;
     }
 }
-
-
-
 
 
 /* Pagrindinis stilius */
@@ -76,15 +73,15 @@ strong {
 
 .btn {
     display: inline-block;
-    padding: .5em 1.5em;
+    padding: .5em 2.5em;
     background: lightgreen;
     color: var(--clr-grey);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
 
@@ -95,7 +92,7 @@ strong {
 h1,
 h2,
 h3 {
-    line-height: 1;
+    line-height: 1.1;
     margin: 0;
 }
 
@@ -104,7 +101,7 @@ h2 { font-size: var(--fs-h2)}
 h3 { font-size: var(--fs-h3)}
 
 .section__title {
-    margin-bottom: 1em;
+    margin-bottom: .25em;
 }
 
 .section__title--intro {
@@ -112,7 +109,7 @@ h3 { font-size: var(--fs-h3)}
 }
 
 .section__title-intro strong {
-    display: inline-block;
+    display: block;
 }
 
 .section_subtitle {
@@ -273,9 +270,9 @@ header {
 
 .mano-paslaugos {
     background: lightgreen;
-    background-image: url(../img/sunset.jpg);
+    background-image: url(../img/siekstys.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
+   /* background-blend-mode: multiply; */
     color: black;
     text-align: center;
 }
@@ -285,14 +282,14 @@ header {
     position: relative;
 }
 
-.section__title-paslaugos::after {
+.section__title--paslaugos::after {
     content: '';
     display: block;
-    width: 2em;
+    width: 3em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: brown;
-    opacity: 0.5;
+    background: var(--clr-white);
+    opacity: 0.25;
 }
 
 .paslaugos {
@@ -364,7 +361,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__item {
@@ -373,8 +370,8 @@ header {
 }
 
 .portfolio__img {
-    transition: transform 600ms cubic-bezier(.5, 0, .5, 1);
-                opacity: .75;
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1);
+                opacity: 100;
 }
 
 .portfolio__item:focus {
