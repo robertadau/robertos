@@ -288,7 +288,7 @@ header {
     width: 3em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-white);
+    background: darkgreen;
     opacity: 0.25;
 }
 
