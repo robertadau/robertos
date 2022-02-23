@@ -74,8 +74,8 @@ strong {
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
-    background: lightgreen;
-    color: var(--clr-grey);
+    background: black;
+    color: var(--clr-white);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
