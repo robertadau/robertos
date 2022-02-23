@@ -270,7 +270,7 @@ header {
 
 .mano-paslaugos {
     background: lightgreen;
-    background-image: url(../img/siekstys.jpg);
+    background-image: url("../img/dringio_ez.jpg");
     background-size: cover;
    /* background-blend-mode: multiply; */
     color: black;
