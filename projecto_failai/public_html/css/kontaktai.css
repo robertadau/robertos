@@ -31,7 +31,7 @@ body {
     background: darkolivegreen;
     color: var(--clr-green);
     text-align: center;
-    padding: 5em 0;
+    padding: 5em 5em;
     font-size: var(--fs-h3);
 }
 
