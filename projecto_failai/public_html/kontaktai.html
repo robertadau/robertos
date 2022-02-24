@@ -37,26 +37,31 @@
 </header>
 
 
-<section class="intro">
+<section class="kontaktai">
     <h1 class="section__title section__title--intro">
-        Web development <strong><br>projects</strong>
+        <strong>Susisiekite su mumis</strong>
     </h1>
-    <p class="section__subtitle section__subtitle--intro">Build your own QR Code Reader</p>
-    <img src="img/web_developer.jpg" alt="" class="intro__img">
+    <p class="section__subtitle section__subtitle--intro">Prašome užpildyti šią paprastą formą žemiau.</p>
 </section>
 
-<div class="portfolio-item-individual">
-    <p>Barcodes and QR codes have revolutionized the way we shop. Customers can now use their smartphones to scan
-        a product and obtain information such as the price or where they can purchase it. It also removes the need
-        to type in long codes on a website, such as activation codes or model numbers, making their purchase experience
-        more convenient. You don’t require a native phone app to read QR codes, contrary to popular belief. Websites that
-        operate on a smart device with a camera may be able to accomplish this. HTML and JavaScript will be used, but the
-        most significant element will be the use of a JS library that can decode the QR code. The good news is that you
-        won’t have to build it from the ground up because there are lots of excellent libraries available for this
-        purpose.</p>
-    <img src="img/How-to-make-your-Front-End-Developer-portfolio-stand-out.png" alt="">
-    <p>Skills Required: HTML, CSS & JavaScript.</p>
-</div>
+    <div class="forma">
+        <form action="contact.php" method="post">
+            <div class="elem-group">
+                <input type="text" id="name" name="visitor_name" placeholder="Jūsų vardas">
+            </div>
+            <div class="elem-group">
+                <input type="email" id="email" name="visitor_email" placeholder="Jūsų el. paštas">
+            </div>
+            <div class="elem-group">
+                <input type="text" id="title" name="email_title" required placeholder="Žinutės tema">
+            </div>
+            <div class="elem-group">
+                <textarea id="message" name="visitor_message" placeholder="Žinutės tekstas" required></textarea>
+            </div>
+            <button type="submit">Siųsti žinutę</button>
+        </form>
+    </div>
+
 
 <! -- Footer -->
 <footer class="footer">
