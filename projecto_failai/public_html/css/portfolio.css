@@ -447,8 +447,9 @@ header {
     margin-right: auto;
 }
 
-.kontaktai h1 {
-    padding: 0 5em 5em;
+.section__title--kontaktai {
+    padding: 1 1em 1em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
