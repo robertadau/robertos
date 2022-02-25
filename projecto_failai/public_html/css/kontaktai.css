@@ -18,7 +18,7 @@ body {
 /* header */
 
 header {
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding-bottom: 40px;
 }
