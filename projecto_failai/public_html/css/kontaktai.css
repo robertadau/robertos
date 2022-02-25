@@ -39,7 +39,7 @@ header {
 
 nav {
     position: fixed;
-    background: -moz-mac-accentdarkestshadow;
+    background: green;
     color: white;
     top: 0;
     bottom: 0;
