@@ -155,10 +155,6 @@ footer {
     font-size: 1.1rem;
 }
 
-.social-list a:hover i {
-    color: limegreen;
-}
-
 .footer-bottom {
     background: lightgreen;
     width: 100vw;
