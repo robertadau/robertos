@@ -18,7 +18,7 @@ body {
 /* header */
 
 header {
-    display: none;
+    display: block;
     justify-content: space-between;
     padding-bottom: 40px;
 }
