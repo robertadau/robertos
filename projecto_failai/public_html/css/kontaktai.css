@@ -85,7 +85,7 @@ nav {
 }
 
 .nav-open .hamburger {
-    transform: rotate(.750turn);
+    transform: rotate(.70rad);
 }
 
 .hamburger {
