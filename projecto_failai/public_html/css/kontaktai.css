@@ -25,7 +25,6 @@ header {
     margin-top: 10px;
 }
 
-
 .logo {
     max-width: 100px;
 }
@@ -82,7 +81,7 @@ nav {
 }
 
 .nav-open .nav-toggle {
-    position: fixed;
+    position: static;
 }
 
 .nav-open .hamburger {
