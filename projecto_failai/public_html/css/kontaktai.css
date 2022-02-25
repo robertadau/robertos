@@ -81,7 +81,7 @@ nav {
 }
 
 .nav-open .nav-toggle {
-    position: static;
+    position: marker;
 }
 
 .nav-open .hamburger {
