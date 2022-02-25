@@ -5,20 +5,7 @@
 }
 /*  pagrindiniai nustatymai, pakeisti galima pagal savo dizaina */
 
-:root {
-    --ff-primary: 'PT Sans', sans-serif;
-    --ff-secondary: 'Roboto Mono', monospace;
 
-    --ff-reg: 300;
-    --fw-bold: 900;
-
-    --clr-white: #fff;
-    --clr-grey: #303030;
-    --clr-green: green;
-
-    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
-    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
-}
 
 html {
     scroll-behavior: smooth;
