@@ -127,6 +127,7 @@ footer {
     height: auto;
     width: 100vw;
     font-family: sans-serif;
+    font-size: larger;
     padding-top: 40px;
     color: black;
 }
