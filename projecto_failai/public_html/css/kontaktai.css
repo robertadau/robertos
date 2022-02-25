@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 /*  pagrindiniai nustatymai, pakeisti galima pagal savo dizaina */
 
 :root {
