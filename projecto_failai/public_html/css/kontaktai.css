@@ -37,7 +37,7 @@ header {
     max-width: 100px;
 }
 
-.nav {
+nav {
     position: fixed;
     background: var(--clr-grey);
     color: var(--clr-white);
