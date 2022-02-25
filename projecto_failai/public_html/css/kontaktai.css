@@ -39,8 +39,8 @@ header {
 
 nav {
     position: fixed;
-    background: var(--clr-grey);
-    color: var(--clr-white);
+    background: -moz-mac-accentdarkestshadow;
+    color: white;
     top: 0;
     bottom: 0;
     left: 0;
