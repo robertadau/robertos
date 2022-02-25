@@ -132,7 +132,7 @@ footer {
 }
 
 .footer-content {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
