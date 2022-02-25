@@ -13,7 +13,8 @@
 
     <script src="https://kit.fontawesome.com/713f663398.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/kontaktai.css">
+
 
 </head>
 
@@ -36,37 +37,23 @@
     </nav>
 </header>
 
+<div id="wrapper">
 
-<section class="kontaktai">
-    <h1 class="section__title section__title--kontaktai">
-        <strong>Susisiekite su mumis</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Prašome užpildyti šią paprastą formą žemiau.</p>
-</section>
-
-    <div class="forma">
-        <form action="contact.php" method="post">
-            <div class="elem-group">
-                <input type="text" id="name" name="visitor_name" placeholder="Jūsų vardas">
-            </div>
-            <div class="elem-group">
-                <input type="email" id="email" name="visitor_email" placeholder="Jūsų el. paštas">
-            </div>
-            <div class="elem-group">
-                <input type="text" id="title" name="email_title" required placeholder="Žinutės tema">
-            </div>
-            <div class="elem-group">
-                <textarea id="message" name="visitor_message" placeholder="Žinutės tekstas" required></textarea>
-            </div>
-            <button type="submit">Siųsti žinutę</button>
+    <div id="contact_form_div">
+        <p id="contact_label">Susisiekite su mumis</p>
+        <form method="post" action="">
+            <p><input type="text" placeholder="Jūsų vardas, pavardė"></p>
+            <p><input type="text" placeholder="Jūsų el. paštas"></p>
+            <p><input type="text" placeholder="Žinutės tema"></p>
+            <p><textarea placeholder="Žinutės tekstas"></textarea></p>
+            <p><input type="submit" value="SIŲSTI"></p>
         </form>
     </div>
 
+</div>
 
 <! -- Footer -->
 <footer class="footer">
-    <!-- replace with your own email address -->
-    <a href="mailto:daugelaite.roberta@gmail.com" class="footer__link">daugelaite.roberta@gmail.com</a>
     <ul class="social-list">
         <li class="social-list__item">
             <a class="social-list__link" href="https://google.lt">
