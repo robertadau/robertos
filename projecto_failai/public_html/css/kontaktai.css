@@ -1,14 +1,10 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-/*  pagrindiniai nustatymai, pakeisti galima pagal savo dizaina */
+body {
 
+}
 
 
 html {
-    scroll-behavior: smooth;
+    height: 100%;
 }
 
 
