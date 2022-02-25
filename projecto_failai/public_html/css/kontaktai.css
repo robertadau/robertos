@@ -12,6 +12,7 @@ body {
     min-height: 100%;
 
     display: grid;
+    grid-auto-rows: auto;
 }
 
 /* header */
