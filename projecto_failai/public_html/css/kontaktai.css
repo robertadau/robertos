@@ -129,7 +129,7 @@ header {
     background: darkolivegreen;
     color: black;
     text-align: center;
-    padding: 10em;
+    padding: 5em;
     font-size: 20px;
 }
 
@@ -248,7 +248,7 @@ body
 {
     #wrapper
     {
-        width:100%;
+        width:50%;
     }
     #wrapper h1
     {
@@ -258,8 +258,8 @@ body
     {
         width:50%;
         margin-left:25%;
-        padding-left:0px;
-        padding-right:0px;
+        padding-left:0;
+        padding-right:0;
     }
     #contact_form_div input[type="text"]
     {
@@ -316,8 +316,8 @@ body
     {
         width:90%;
         margin-left:5%;
-        padding-left:0px;
-        padding-right:0px;
+        padding-left:0;
+        padding-right:0;
     }
     #contact_form_div input[type="text"]
     {
