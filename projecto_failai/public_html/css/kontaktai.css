@@ -127,10 +127,10 @@ header {
 
 .footer {
     background: darkolivegreen;
-    color: var(--clr-green);
+    color: black;
     text-align: center;
-    padding: 2.5em 0;
-    font-size: var(--fs-h3);
+    padding: 10em;
+    font-size: 20px;
 }
 
 .footer a {
