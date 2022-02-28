@@ -8,7 +8,7 @@ if (array_key_exists('username', $_SESSION)) {
 
     include '../src/Entities/Car.php';
 
-    $car = new Car( 'green', currentSpeed: '6 km/h', millage: 10);
+    $car = new Car( 'green', currentSpeed: '0 km/h', millage: 10);
     echo 'We are driving' . $car->getColor() . 'car<br>';
     echo 'Current speed is: ' . $car->getCurrentSpeed() . '<br>';
     echo 'Current millage is: ' . $car->getMillage() . '<br>';
