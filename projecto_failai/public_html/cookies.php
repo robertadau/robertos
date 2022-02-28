@@ -7,7 +7,7 @@ setcookie($sausainelio_vardas, $sausainelio_reiksme, time() + 10, '/');
 
 
 if(!isset($_COOKIE['vartotojas'])) {
-    echo 'Sausainėlis pavadinimu "vartotojas" nera sukurtas!';
+    echo 'Sausainėlis pavadinimu "vartotojas" nera sukurtas! Mes jį ką tik sukūrėme';
 } else {
     echo 'Sausainėlis "vartotojas" yra sukurtas!<br>';
     echo 'Jo reikšmė yra: ' . $_COOKIE['vartotojas'];
