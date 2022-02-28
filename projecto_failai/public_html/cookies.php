@@ -1,6 +1,6 @@
 <?php
 
-var_dump(time());
+var_dump($_COOKIE);
 
 $sausainelio_vardas = 'vartotojas';
 $sausainelio_reiksme = 'Roberta Daugėlaitė';
