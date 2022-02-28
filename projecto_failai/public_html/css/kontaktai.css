@@ -293,10 +293,8 @@ footer {
 
     #contact_form_div
     {
-        width:90%;
-        margin-left:5%;
-        padding-left:0;
-        padding-right:0;
+        margin:0 auto;
+        width:420px;
     }
     #contact_form_div input[type="text"]
     {
