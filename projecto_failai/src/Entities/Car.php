@@ -2,20 +2,39 @@
 
 class Car
 {
-
-    private float $currentGasolineAmount;
-
     public function __construct(
         private string $color = '',
-        private string $currentSpeed = '0km/h',
+        private string $currentSpeed = '8 km/h',
         private float $millage = 20,
-        private int $tankSize = 50
-    ) {
-        $this->currentGasolineAmount = 0;
+    ) { }
+
+    public function getColor(): string
+    {
+        return $this->color;
     }
 
-    public function fillGasoline(float $amount): void
+    public function setCurrentSpeed(string $currentSpeed): void
     {
-        if ($amount > 0 &&
-        &this->$this->currentGasolineAmount >= 0 &&
-        ($this->currentGasolineAmount + $amount)
+       $this->currentSpeed = trim($currentSpeed);
+    }
+
+    public function getMillage(): float
+    {
+        return $this->millage;
+    }
+
+    public function drive(float $distance)
+    {
+        $this->millage += $distance;
+    }
+
+    public function getCurrentSpeed(): string
+    {
+        return $this->currentSpeed;
+    }
+
+    public function changeColor(string $color)
+    {
+        echo 'Just changed car color to: ' . $color . '<br>';
+    }
+}
