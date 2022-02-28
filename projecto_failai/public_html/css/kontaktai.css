@@ -296,16 +296,21 @@ footer {
         margin:0 auto;
         width:420px;
     }
-    #contact_form_div input[type="text"]
+    #contact_form_div input,
+    textarea
     {
-        width:80%;
+        width:400px;
+        height:27px;
+        background:#666666;
+        border:2px solid #f6f6f6;
+        padding:10px;
+        margin-top:10px;
+        font-size:0.7em;
+        color:#ffffff;
     }
     #contact_form_div textarea
     {
         width:80%;
     }
-    #contact_form_div input[type="submit"]
-    {
-        width:80%;
-    }
+
 }
