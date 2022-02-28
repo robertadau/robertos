@@ -12,4 +12,4 @@ if(!isset($_COOKIE['vartotojas'])) {
     echo 'Jo reikšmė yra: ' . $_COOKIE['vartotojas'];
 }
 echo '<pre>';
-var_dump($_GET);
+var_dump($_POST);
