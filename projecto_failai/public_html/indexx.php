@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 
 $sausainelio_vardas = 'vartotojas';
@@ -15,5 +13,3 @@ if(!isset($_COOKIE['vartotojas'])) {
     echo 'Jo reikšmė yra: ' . $_COOKIE['vartotojas'];
 }
 ?>
-</body>
-</html>
