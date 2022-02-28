@@ -1,5 +1,7 @@
 <?php
 
+var_dump(time());
+
 $sausainelio_vardas = 'vartotojas';
 $sausainelio_reiksme = 'Roberta Daugėlaitė';
 setcookie($sausainelio_vardas, $sausainelio_reiksme, time() + 10, '/');
