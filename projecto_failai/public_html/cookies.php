@@ -12,4 +12,3 @@ if(!isset($_COOKIE['vartotojas'])) {
     echo 'Jo reikšmė yra: ' . $_COOKIE['vartotojas'];
 }
 var_dump($_COOKIE);
-?>
