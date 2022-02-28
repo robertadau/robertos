@@ -11,5 +11,5 @@ if(!isset($_COOKIE['vartotojas'])) {
     echo 'Sausainėlis "vartotojas" yra sukurtas!<br>';
     echo 'Jo reikšmė yra: ' . $_COOKIE['vartotojas'];
 }
-echo 'pri';
+echo '<pre>';
 var_dump($_SERVER);
