@@ -286,12 +286,11 @@ footer {
 {
     #wrapper
     {
+        display:block;
+        margin:0 auto;
         width:100%;
     }
-    #wrapper h1
-    {
-        font-size:25px;
-    }
+
     #contact_form_div
     {
         width:90%;
