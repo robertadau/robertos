@@ -38,9 +38,10 @@ $masyvasA = [
 
 $f = [9,8,7,6,5,4,5]
 
-
+?>
 
 /* kita uzduotis */
+
 
 
 
@@ -60,5 +61,5 @@ foreach ($masyvas as $key => $value) {
     }
 }
 
-
+?>
 
