@@ -47,19 +47,18 @@
 
 <div id="wrapper">
 
-    <div id="contact_form_div">
+    <section id="contact_form_div">
         <p id="contact_label">Susisiekite su mumis</p>
         <form method="POST" action="kontaktai.php">
-            <p><input type="text" placeholder="Jūsų vardas, pavardė"></p>
-            <p><input type="text" placeholder="Jūsų el. paštas"></p>
-            <p><input type="text" placeholder="Žinutės tema"></p>
-            <p><textarea placeholder="Žinutės tekstas"></textarea></p>
-            <p><input type="submit" value="SIŲSTI"></p>
+            <input name="name" placeholder="Jūsų vardas">
+            <input name="email" type="email" placeholder="Jūsų el. paštas">
+            <textarea name="message" placeholder="Žinutės tekstas"></textarea>
+            <input id="submit" name="submit" type="submit" value="Siųsti">
         </form>
-    </div>
+    </section>
 
 </div>
-
+-
 <! -- Footer -->
 
 <footer class="footer-content">
