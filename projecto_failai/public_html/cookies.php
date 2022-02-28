@@ -1,7 +1,7 @@
 <?php
 
 $sausainelio_vardas = 'vartotojas';
-$sausainelio_reiksme = 'Vardenis Pavardenis';
+$sausainelio_reiksme = 'Roberta Daugelaite';
 setcookie($sausainelio_vardas, $sausainelio_reiksme, time() + (86400 * 30), '/');
 // 86400 = 1 diena
 
