@@ -2,21 +2,18 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+$from = 'From: Portfolio';
+$to = 'daugelaite.roberta@gmail.com';
+$subject = 'What?';
 
-$email_from = 'daugelaite.roberta@gmail.com';
+$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
-$email_subject = "New Form Submission";
+if ($_POST['submit']) {
+    if (mail ($to, $subject, $body, $from)) {
+        echo '<p>Message Sent Successfully!</p>';
+    } else {
+        echo '<p>Ah! Try again, please?</p>';
+    }
+ }
 
-$email_body = "Jūsų vardas: $name.\n".
-                "Jūsų el. paštas: $email.\n".
-                "Žinutė: $message.\n";
-
-$to = "vaidilute20@yahoo.com";
-
-$headers = "From: $email_from \r\n";
-
-$headers .= "Reply_To: $email \r\n";
-
-mail($to,$email_subject,$email_body,$headers);
-
-header("Location: kontaktai.html");
+?>
