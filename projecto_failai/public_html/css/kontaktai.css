@@ -164,7 +164,9 @@ footer {
 }
 
 /* kontaktai */
-
+.h2 {
+    margin-left: auto;
+}
 * {
     box-sizing: border-box;
 }
