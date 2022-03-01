@@ -118,7 +118,7 @@ nav {
 
 footer {
     background: green;
-    height: 1rem;
+    height: auto;
     width: 100vw;
     font-family: sans-serif;
     color: black;
