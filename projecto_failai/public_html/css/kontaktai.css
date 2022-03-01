@@ -165,7 +165,7 @@ footer {
 
 /* kontaktai */
 .h2 {
-    margin-left: auto;
+    margin-left: 1em;
 }
 * {
     box-sizing: border-box;
