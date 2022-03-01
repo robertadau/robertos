@@ -4,7 +4,7 @@ class Car
 {
     public function __construct(
         private string $color = '',
-        private string $currentSpeed = '8 km/h',
+        private string $currentSpeed = '0 km/h',
         private float $millage = 20,
     ) { }
 
@@ -38,3 +38,6 @@ class Car
         echo 'Just changed car color to: ' . $color . '<br>';
     }
 }
+
+?>
+

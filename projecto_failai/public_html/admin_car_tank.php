@@ -1,5 +1,6 @@
 <?php
 
+
 session_start();
 
 if (array_key_exists('username', $_SESSION)) {
@@ -8,12 +9,15 @@ if (array_key_exists('username', $_SESSION)) {
 
     include '../src/Entities/Car.php';
 
-    $car = new Car( 'green', currentSpeed: '0 km/h', millage: 10);
+    $car = new Car('green', currentSpeed: '0 km/h', millage: 10);
     echo 'We are driving' . $car->getColor() . 'car<br>';
     echo 'Current speed is: ' . $car->getCurrentSpeed() . '<br>';
     echo 'Current millage is: ' . $car->getMillage() . '<br>';
-    $newSpeed = '50km/h';
-    $car->changeColor(color: 'red');
+    $amount = '10';
+    echo 'Let\'s fill . $amount() . ' litres of gasoline < br>';
+    $car->fillGasoline($amount);
+    $newSpeed = '50km / h';
+    $car->changeColor(color: 'red);
     echo 'Currently We are driving' . $car->getColor() . 'car at' . $newSpeed . '<br>';
     $car->setCurrentSpeed($newSpeed);
     $car->drive(distance: 75);
@@ -24,12 +28,10 @@ if (array_key_exists('username', $_SESSION)) {
 
     $car2 = new Car(color: 'blue');
     $newSpeed2 = '70km/h';
-    echo 'Currently We are driving' . $car2->getColor() . 'car at' . $newSpeed2 . '<br>';
+    echo 'Currently We are driving' . $car2->getColor() . ' car at ' . $newSpeed2 . '<br>';
 
-}  else {
+} else {
     header('location: login.html');
 }
 
 ?>
-
-
