@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Labas pasauli</title>
+    <style>
+        .mystyle {color:red;}
+        .intro {background:pink;}
+        .special {color:blue;}
+        #myheader {color:red;}
+    </style>
 </head>
 
 <body>
 
 <main>
 
-<h1>Pirmoji antraštė</h1>
+<h1 class="mystyle">Pirmoji antraštė</h1>
 <p>Pirmas paragrafas.</p>
 <p>Antras paragrafas.</p>
 <p>Trečias paragrafas.</p>
 
-<h2>Antroji antraštė</h2>
+<h2 class="intro special">Antroji antraštė</h2>
     <hr>
 <p>Pirmas paragrafas.</p>
 <p style="font-size:50px;">H<sub>2</sub>O. Antras paragrafas. <br>Kokybiškas UX UI web dizainas padeda sukurti aiškios struktūros,
     patogią aplinką ir siekti, kad <em>svetainės</em>, programėlės ar programinės įrangos <strong>naudotojas</strong> jaustųsi kuo geriau.
     Tinkamai <q>pritaikyti</q> UX UI dizaino <mark>sprendimai</mark> gali prailginti lankymosi laiką, pagerinti pritaikomumą,funkcionalumą
     ir suteikti vartotojui daugiau <del>malonių</del> emocijų.</p>
+    <h3 id="myheader">Trecioji antraste</h3>
 <pre>
     Labas
     Labukas
@@ -56,7 +63,7 @@
         <th>Points</th>
     </tr>
     <tr>
-        <td rowspan="3">Jill</td>
+        <td>Jill</td>
         <td>Smith</td>
         <td>50</td>
     </tr>
@@ -66,9 +73,47 @@
         <td>94</td>
     </tr>
 </table>
+<ol type="I">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>Sugar</li>
+    <li>Salt</li>
+    <li>Garlic</li>
+</ol>
 <br>
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>Sugar</li>
+    <li>Salt</li>
+    <li>Garlic</li>
+</ol>
 <br>
+<ol type="A">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>Sugar</li>
+    <li>Salt</li>
+    <li>Garlic</li>
+</ol>
+<br>
+<ul style="list-style-type:square;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>Sugar</li>
+    <li>Salt</li>
+</ul>
 
+<dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+</dl>
 </body>
 
 </html>
