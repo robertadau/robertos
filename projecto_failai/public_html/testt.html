@@ -2,11 +2,87 @@
 <html>
 <body>
 
+<!-- JavaScript_1_example -->
+
 <h2>What Can JavaScript Do?</h2>
 
-<p id="demo">JavaScript can change HTML content.</p>
+<p id="demoo">JavaScript can change HTML content.</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<button type="button" onclick='document.getElementById("demoo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<!-- JavaScript_2_example -->
+
+<h2>JavaScript in Body</h2>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+<!-- JavaScript_3_example -->
+
+<h2>Demo JavaScript</h2>
+
+<p id="demooo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+    function myFunction() {
+        document.getElementById("demooo").innerHTML = "Paragraph changed.";
+    }
+</script>
+
+<!-- JavaScript_4_example -->
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="dem"></p>
+
+<script>
+    document.getElementById("dem").innerHTML = 5 + 6;
+</script>
+
+<!-- JavaScript_5_example -->
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 7)">Try it</button>
+
+<!-- JavaScript_6_example OpensWindowAlert -->
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+    window.alert(5 + 6);
+</script>
+
+<!-- JavaScript_7_example WindowKeywordOpensAlert-->
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+    alert(5 + 9);
+</script>
+
+<!-- JavaScript_8_example UsingConsoleLog-->
+
+<h2>Activate Debugging</h2>
+
+<p>F12 on your keyboard will activate debugging.</p>
+<p>Then select "Console" in the debugger menu.</p>
+<p>Then click Run again.</p>
+
+<script>
+    console.log(5 + 6);
+</script>
+
 
 </body>
 </html>
+
+
