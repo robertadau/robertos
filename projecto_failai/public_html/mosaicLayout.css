@@ -63,6 +63,11 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+
 }
 
 nav {
