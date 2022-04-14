@@ -106,3 +106,7 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
     background-color: #777;
 }
+
+#front {
+    border-radius: 50%;
+}
