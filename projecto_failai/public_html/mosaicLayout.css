@@ -67,7 +67,7 @@ header {
 }
 
 .nav-toggle-label span::before {
-
+    bottom: 7px;
 }
 
 nav {
