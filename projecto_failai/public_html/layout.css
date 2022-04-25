@@ -44,3 +44,10 @@ div{
     background-color: #AAD9CD;
     transform: rotate(-5deg);
 }
+
+.tree.one {
+    width: 5vmin;
+    height: 15vmin;
+    bottom: 100%;
+    left: 20%;
+}
