@@ -19,3 +19,10 @@ div{
     background: #9AC8EB;
     z-index: -1;
 }
+
+.ground.first {
+    width: 110%;
+    height: 40%;
+    bottom: 0;
+    background-color: #F4CFDF;
+}
