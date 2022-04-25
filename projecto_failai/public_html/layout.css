@@ -60,3 +60,23 @@ div{
     border-radius: 100% 100% 100%/100% 100% 50% 50%;
     box-shadow: inset 1.5vmin -0.5vmin #ff0000;
 }
+
+.tree .trunk {
+    width: 13%;
+    height: 10%;
+    background: #484444;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tree .shadow {
+    width: 50%;
+    height: 200%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transform: rotate(-104deg);
+    transform-origin: bottom center;
+    left: -7%;
+    bottom: -7%;
+}
