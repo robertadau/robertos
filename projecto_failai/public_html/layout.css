@@ -29,6 +29,11 @@ div{
     height: 25px;
 }
 
+.cloud1 {
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
 .ground.first {
     width: 110%;
     height: 40%;
