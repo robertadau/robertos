@@ -34,6 +34,13 @@ div{
     margin-top: 70px;
 }
 
+.cloud-circle1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 38px;
+    margin-top: -8px;
+}
+
 .ground.first {
     width: 110%;
     height: 40%;
