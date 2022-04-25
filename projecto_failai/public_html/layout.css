@@ -20,6 +20,12 @@ div{
     z-index: -1;
 }
 
+.cloud.one {
+    top: 50%;
+    width: 300px;
+    height: 100px;
+}
+
 .cloud {
     position: absolute;
     left: 0;
