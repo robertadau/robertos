@@ -35,3 +35,12 @@ div{
     background-color: #E8D595;
     transform: rotate(5deg);
 }
+
+.ground.third {
+    width: 140%;
+    height: 20%;
+    bottom: -5%;
+    left: -10%;
+    background-color: #AAD9CD;
+    transform: rotate(-5deg);
+}
