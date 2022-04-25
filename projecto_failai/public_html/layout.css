@@ -20,6 +20,15 @@ div{
     z-index: -1;
 }
 
+.cloud-circle {
+    border-radius: 50%;
+    background-color: blue;
+    position: fixed;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
 .ground.first {
     width: 110%;
     height: 40%;
