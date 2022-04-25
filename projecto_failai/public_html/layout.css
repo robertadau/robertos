@@ -52,6 +52,27 @@ div{
     left: 20%;
 }
 
+.tree.two {
+    width: 5vmin;
+    height: 15vmin;
+    bottom: 100%;
+    left: 20%;
+}
+
+.tree.three {
+    width: 5vmin;
+    height: 15vmin;
+    bottom: 100%;
+    left: 20%;
+}
+
+.tree.four {
+    width: 5vmin;
+    height: 15vmin;
+    bottom: 100%;
+    left: 20%;
+}
+
 .tree .body {
     display: block;
     width: 100%;
