@@ -54,21 +54,21 @@ div{
 
 .tree.two {
     width: 5vmin;
-    height: 15vmin;
+    height: 20vmin;
     bottom: 100%;
     left: 30%;
 }
 
 .tree.three {
     width: 5vmin;
-    height: 15vmin;
+    height: 10vmin;
     bottom: 100%;
     left: 40%;
 }
 
 .tree.four {
     width: 5vmin;
-    height: 15vmin;
+    height: 10vmin;
     bottom: 100%;
     left: 50%;
 }
