@@ -28,7 +28,7 @@ div{
 
 .cloud {
     position: absolute;
-    left: 0;
+    left: 10px;
     background: white;
     border-radius: 1000px;
 }
