@@ -52,29 +52,29 @@ div{
 .cloud-circle2 {
     width: 30px;
     height: 30px;
-    margin-left: 38px;
-    margin-top: -8px;
+    margin-left: 10px;
+    margin-top: -3px;
 }
 
 .cloud-circle3 {
     width: 30px;
     height: 30px;
-    margin-left: 38px;
-    margin-top: -8px;
+    margin-left: 8px;
+    margin-top: -4px;
 }
 
 .cloud-circle4 {
     width: 30px;
     height: 30px;
-    margin-left: 38px;
-    margin-top: -8px;
+    margin-left: -13px;
+    margin-top: 0;
 }
 
 .cloud-circle5 {
     width: 30px;
     height: 30px;
-    margin-left: 38px;
-    margin-top: -8px;
+    margin-left: 0;
+    margin-top: -15px;
 }
 
 .ground.first {
