@@ -44,6 +44,17 @@ div{
     border-radius: 50%;
 }
 
+.cloud::after {
+    content: '';
+    position: absolute;
+    top: -80%;
+    left: 10%;
+    width: 50%;
+    height: 150%;
+    background: white;
+    border-radius: 50%;
+}
+
 .ground.first {
     width: 110%;
     height: 40%;
