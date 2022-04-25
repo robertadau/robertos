@@ -26,3 +26,11 @@ div{
     bottom: 0;
     background-color: #F4CFDF;
 }
+
+.ground.second {
+    width: 140%;
+    height:25%;
+    bottom: 0;
+    left:-10%;
+    background-color: #E8D595;
+}
