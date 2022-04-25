@@ -28,55 +28,6 @@ div{
     z-index: 10;
 }
 
-.cloud-circle {
-    border-radius: 50%;
-    background-color: blue;
-    position: fixed;
-    display: block;
-    width: 25px;
-    height: 25px;
-}
-
-.cloud1 {
-    margin-left: 10px;
-    margin-top: 70px;
-}
-
-.cloud-circle1 {
-    width: 30px;
-    height: 30px;
-    margin-left: 38px;
-    margin-top: -8px;
-}
-
-.cloud-circle2 {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: -3px;
-}
-
-.cloud-circle3 {
-    width: 30px;
-    height: 30px;
-    margin-left: 8px;
-    margin-top: -4px;
-}
-
-.cloud-circle4 {
-    width: 30px;
-    height: 30px;
-    margin-left: -13px;
-    margin-top: 0;
-}
-
-.cloud-circle5 {
-    width: 30px;
-    height: 30px;
-    margin-left: 0;
-    margin-top: -15px;
-}
-
 .ground.first {
     width: 110%;
     height: 40%;
