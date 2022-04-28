@@ -26,7 +26,7 @@ div{
     height: 100px;
 }
 
-.cloud {
+.cloud.one {
     position: absolute;
     left: 50px;
     background: blue;
