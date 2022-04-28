@@ -56,7 +56,7 @@ div{
     border-radius: 50%;
 }
 
-@keyframes backwards {
+@keyframes running {
     from {
         left: 50px;
         transform: translateX(-100%);
