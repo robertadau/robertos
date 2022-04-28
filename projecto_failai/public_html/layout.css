@@ -31,7 +31,7 @@ div{
     left: 50px;
     background: blue;
     border-radius: 1000px;
-    animation: backwards 5s infinite linear;
+    animation: running;
 }
 
 .cloud::before {
