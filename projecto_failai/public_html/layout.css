@@ -13,15 +13,13 @@ div{
     overflow: hidden;
 }
 
-body {
-    background: rgba(0, 176, 255, .7);
-}
-
 .sky {
     position: absolute;
+    background-color: blue;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+
 }
 
 #cloud {
