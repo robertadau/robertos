@@ -41,7 +41,7 @@ div{
     left: 10%;
     width: 50%;
     height: 150%;
-    background: white;
+    background: blue;
     border-radius: 50%;
 }
 
@@ -52,7 +52,7 @@ div{
     right: 20%;
     width: 30%;
     height: 100%;
-    background: white;
+    background: blue;
     border-radius: 50%;
 }
 
