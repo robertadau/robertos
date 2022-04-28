@@ -64,6 +64,7 @@ div{
 
     to {
         left: 100px;
+        transform: translateX(0%);
     }
 }
 
