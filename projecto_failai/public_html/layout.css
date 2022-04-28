@@ -58,7 +58,7 @@ div{
 
 @keyframes zoomies {
     from {
-        left: 0;
+        left: 50px;
     }
 
     to {
