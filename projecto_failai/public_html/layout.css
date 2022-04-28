@@ -29,7 +29,7 @@ div{
 .cloud {
     position: absolute;
     left: 50px;
-    background: white;
+    background: red;
     border-radius: 1000px;
     animation: zoomies 5s infinite linear;
 }
