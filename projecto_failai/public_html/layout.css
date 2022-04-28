@@ -43,7 +43,7 @@ div{
     }
 }
 
-.cloud::before {
+.cloud.one::before {
     content: '';
     position: absolute;
     top: -80%;
@@ -54,7 +54,7 @@ div{
     border-radius: 50%;
 }
 
-.cloud::after {
+.cloud.one::after {
     content: '';
     position: absolute;
     top: -40%;
