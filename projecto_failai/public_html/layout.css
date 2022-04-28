@@ -55,6 +55,16 @@ div{
     border-radius: 50%;
 }
 
+@keyframes zoomies {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
 .ground.first {
     width: 110%;
     height: 40%;
