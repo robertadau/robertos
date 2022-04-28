@@ -34,6 +34,15 @@ div{
     animation: running;
 }
 
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
 .cloud::before {
     content: '';
     position: absolute;
@@ -54,18 +63,6 @@ div{
     height: 100%;
     background: blue;
     border-radius: 50%;
-}
-
-@keyframes running {
-    from {
-        left: 50px;
-        transform: translateX(-100%);
-    }
-
-    to {
-        left: 100px;
-        transform: translateX(0%);
-    }
 }
 
 .ground.first {
