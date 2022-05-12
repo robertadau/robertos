@@ -1,21 +1,14 @@
-.navigation {
-    grid-area: navigation;
+
+
+html, body {
+    padding: 0;
+    margin: 0;
 }
 
-.left-column {
-    grid-area: left-column;
+h1, h2, h3, h4, h5, h6, strong{
+
 }
 
-.right-column {
-    grid-area: right-column;
-}
+p, li, span, label, input, textarea{
 
-#wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3em 30em;
-    grid-template-areas:
-    "navigation navigation"
-    "left-column right-column";
-    gap:10px;
 }
