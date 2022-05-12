@@ -23,10 +23,10 @@ p, li, span, label, input, textarea{
 
 .s1 {
     background-color: var(--mainColor);
-    border-bottom: var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
 }
 
 .s2 {
     background-color: var(--secondaryColor);
-    border-bottom: var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
 }
