@@ -1,0 +1,21 @@
+.navigation {
+    grid-area: navigation;
+}
+
+.left-column {
+    grid-area: left-column;
+}
+
+.right-column {
+    grid-area: right-column;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
+    grid-template-areas:
+    "navigation navigation"
+    "left-column right-column";
+    gap:10px;
+}
