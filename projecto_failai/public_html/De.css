@@ -25,3 +25,8 @@ p, li, span, label, input, textarea{
     background-color: var(--mainColor);
     border-bottom: var(--borderColor);
 }
+
+.s2 {
+    background-color: var(--secondaryColor);
+    border-bottom: var(--borderColor);
+}
