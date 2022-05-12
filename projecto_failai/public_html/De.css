@@ -1,4 +1,6 @@
-
+:root{
+    --mainText:red;
+}
 
 html, body {
     padding: 0;
