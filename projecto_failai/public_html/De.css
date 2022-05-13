@@ -76,6 +76,7 @@ h6 { font-size: 16px;}
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     'nav-wrapper nav-wrapper'
+    'left-column right-column'
 }
 
 .nav-wrapper {
