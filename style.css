@@ -1,0 +1,46 @@
+a {
+    padding:10px;
+}
+
+img {
+    width: 33.33%;
+    margin-left: 30px;
+    display: block;
+    align-items: baseline;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#green {
+    color: green;
+}
+
+#background_red {
+    background-color: red;
+}
+
+#background_blue {
+    background-color: blue;
+}
+
+#background_green {
+    background-color: green;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Comic {
+    font-family: Comic Sans MS;
+}
+
+.JS {
+    padding: 2em;
+}
